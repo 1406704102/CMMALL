@@ -14,6 +14,11 @@
         <module>cmmall-order</module>
         <module>cmmall-product</module>
         <module>cmmall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>cmmall-common</module>
+        <module>cmmall-third-party</module>
+        <module>cmmall-gateway</module>
     </modules>
 
 </project>

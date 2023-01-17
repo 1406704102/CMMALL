@@ -1,0 +1,26 @@
+#server:
+#  port: 8100
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+
+spring:
+  application:
+    name: cmmall-gateway
+  cloud:
+    nacos:
+      config:
+        namespace: c9fbede5-1eae-4956-af3f-e9b4b6f375bc
+        file-extension: yml
+        shared-configs[0]:
+          data-id: port.yaml
+          refresh: true
+          group: dev
+        shared-configs[1]:
+          data-id: nacos.yaml
+          refresh: true
+          group: dev
+        shared-configs[2]:
+          data-id: routes.yaml
+          refresh: true
+          group: dev

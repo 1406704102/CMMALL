@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: cmmall-third-party
+  cloud:
+    nacos:
+      config:
+        namespace: 16e70131-3daf-4253-b191-a390a28bcd29
+        file-extension: yml
+        shared-configs[0]:
+          data-id: port.yaml
+          refresh: true
+          group: dev
+        shared-configs[1]:
+          data-id: nacos.yaml
+          refresh: true
+          group: dev
+        shared-configs[2]:
+          data-id: oss.yaml
+          refresh: true
+          group: dev
+

@@ -1,0 +1,30 @@
+#server:
+#  port: 8100
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+
+spring:
+  application:
+    name: cmmall-member
+  cloud:
+    nacos:
+      config:
+        namespace: f696d2f3-da3f-4052-aa02-b83578902814
+        file-extension: yml
+        shared-configs[0]:
+          data-id: port.yaml
+          refresh: true
+          group: dev
+        shared-configs[1]:
+          data-id: db.yaml
+          refresh: true
+          group: dev
+        shared-configs[2]:
+          data-id: mybatis-plus.yaml
+          refresh: true
+          group: dev
+        shared-configs[3]:
+          data-id: nacos.yaml
+          refresh: true
+          group: dev

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: cmmall-ware
+  cloud:
+    nacos:
+      config:
+        namespace: de1ec157-3f62-4455-a222-507baaee3fb6
+        file-extension: yml
+        extension-configs[0]:
+          data-id: port.yaml
+          refresh: true
+          group: dev
+        extension-configs[1]:
+          data-id: db.yaml
+          refresh: true
+          group: dev
+        extension-configs[2]:
+          data-id: mybatis-plus.yaml
+          refresh: true
+          group: dev
+        extension-configs[3]:
+          data-id: nacos.yaml
+          refresh: true
+          group: dev
