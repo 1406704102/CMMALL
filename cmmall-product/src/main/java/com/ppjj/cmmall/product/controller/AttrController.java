@@ -6,11 +6,7 @@ import java.util.Map;
 import com.ppjj.cmmall.common.utils.PageUtils;
 import com.ppjj.cmmall.common.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.ppjj.cmmall.product.entity.AttrEntity;
 import com.ppjj.cmmall.product.vo.AttrVo;
@@ -30,6 +26,14 @@ import com.ppjj.cmmall.product.service.AttrService;
 public class AttrController {
     @Autowired
     private AttrService attrService;
+
+    // attr/base/list/
+
+    @GetMapping("/base/list/{catId}")
+    public R baseAttr(@RequestParam Map<String, Object> params, @PathVariable("catId") Long catId) {
+        PageUtils page = attrService.queryBasePage(params, catId);
+        return R.ok().put("page", page);
+    }
 
     /**
      * 列表
