@@ -1,0 +1,132 @@
+2023-01-16 10:10:43,745 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2023-01-16 10:10:43,815 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2023-01-16 10:10:44,016 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2023-01-16 10:10:44,022 INFO The number of active nodes increment to 1.
+
+2023-01-16 10:10:44,824 INFO Starts FSMCaller successfully.
+
+2023-01-16 10:10:44,848 INFO Loading snapshot, meta=last_included_index: 6
+last_included_term: 6
+peers: "192.168.123.187:7848"
+.
+
+2023-01-16 10:10:44,926 INFO Node <naming_persistent_service_v2/192.168.123.187:7848> onSnapshotLoadDone, last_included_index: 6
+last_included_term: 6
+peers: "192.168.123.187:7848"
+
+
+2023-01-16 10:10:44,926 INFO Node <naming_persistent_service_v2/192.168.123.187:7848> target priority value has changed from: 0, to: -1.
+
+2023-01-16 10:10:44,972 INFO Node <naming_persistent_service_v2/192.168.123.187:7848> init, term=6, lastLogId=LogId [index=6, term=6], conf=192.168.123.187:7848, oldConf=.
+
+2023-01-16 10:10:44,975 INFO Node <naming_persistent_service_v2/192.168.123.187:7848> start vote and grant vote self, term=6.
+
+2023-01-16 10:10:45,170 WARN Unable to fsync directory F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2023-01-16 10:10:45,170 INFO Save raft meta, path=F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=7, votedFor=192.168.123.187:7848, cost time=195 ms
+
+2023-01-16 10:10:45,171 INFO Node <naming_persistent_service_v2/192.168.123.187:7848> become leader of group, term=7, conf=192.168.123.187:7848, oldConf=.
+
+2023-01-16 10:10:45,174 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2023-01-16 10:10:45,176 WARN RPC server is not started in RaftGroupService.
+
+2023-01-16 10:10:45,176 INFO Start the RaftGroupService successfully.
+
+2023-01-16 10:10:45,217 INFO The number of active nodes increment to 2.
+
+2023-01-16 10:10:45,530 INFO onLeaderStart: term=7.
+
+2023-01-16 10:10:45,562 WARN Channel in TRANSIENT_FAILURE state: 192.168.123.187:7848.
+
+2023-01-16 10:10:45,562 WARN Channel in SHUTDOWN state: 192.168.123.187:7848.
+
+2023-01-16 10:10:46,203 INFO Starts FSMCaller successfully.
+
+2023-01-16 10:10:46,208 INFO Loading snapshot, meta=last_included_index: 6
+last_included_term: 6
+peers: "192.168.123.187:7848"
+.
+
+2023-01-16 10:10:46,214 INFO Node <naming_instance_metadata/192.168.123.187:7848> onSnapshotLoadDone, last_included_index: 6
+last_included_term: 6
+peers: "192.168.123.187:7848"
+
+
+2023-01-16 10:10:46,214 INFO Node <naming_instance_metadata/192.168.123.187:7848> target priority value has changed from: 0, to: -1.
+
+2023-01-16 10:10:46,217 INFO Node <naming_instance_metadata/192.168.123.187:7848> init, term=6, lastLogId=LogId [index=6, term=6], conf=192.168.123.187:7848, oldConf=.
+
+2023-01-16 10:10:46,218 INFO Node <naming_instance_metadata/192.168.123.187:7848> start vote and grant vote self, term=6.
+
+2023-01-16 10:10:46,380 WARN Unable to fsync directory F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2023-01-16 10:10:46,380 INFO Save raft meta, path=F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=7, votedFor=192.168.123.187:7848, cost time=162 ms
+
+2023-01-16 10:10:46,380 INFO Node <naming_instance_metadata/192.168.123.187:7848> become leader of group, term=7, conf=192.168.123.187:7848, oldConf=.
+
+2023-01-16 10:10:46,381 WARN RPC server is not started in RaftGroupService.
+
+2023-01-16 10:10:46,381 INFO Start the RaftGroupService successfully.
+
+2023-01-16 10:10:46,460 INFO The number of active nodes increment to 3.
+
+2023-01-16 10:10:46,499 INFO onLeaderStart: term=7.
+
+2023-01-16 10:10:47,184 INFO Starts FSMCaller successfully.
+
+2023-01-16 10:10:47,194 INFO Loading snapshot, meta=last_included_index: 6
+last_included_term: 6
+peers: "192.168.123.187:7848"
+.
+
+2023-01-16 10:10:47,199 INFO Node <naming_service_metadata/192.168.123.187:7848> onSnapshotLoadDone, last_included_index: 6
+last_included_term: 6
+peers: "192.168.123.187:7848"
+
+
+2023-01-16 10:10:47,199 INFO Node <naming_service_metadata/192.168.123.187:7848> target priority value has changed from: 0, to: -1.
+
+2023-01-16 10:10:47,200 INFO Node <naming_service_metadata/192.168.123.187:7848> init, term=6, lastLogId=LogId [index=6, term=6], conf=192.168.123.187:7848, oldConf=.
+
+2023-01-16 10:10:47,200 INFO Node <naming_service_metadata/192.168.123.187:7848> start vote and grant vote self, term=6.
+
+2023-01-16 10:10:47,272 WARN Unable to fsync directory F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2023-01-16 10:10:47,272 INFO Save raft meta, path=F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=7, votedFor=192.168.123.187:7848, cost time=72 ms
+
+2023-01-16 10:10:47,272 INFO Node <naming_service_metadata/192.168.123.187:7848> become leader of group, term=7, conf=192.168.123.187:7848, oldConf=.
+
+2023-01-16 10:10:47,273 WARN RPC server is not started in RaftGroupService.
+
+2023-01-16 10:10:47,273 INFO Start the RaftGroupService successfully.
+
+2023-01-16 10:10:47,307 INFO onLeaderStart: term=7.
+
+2023-01-16 10:29:16,410 WARN Unable to fsync directory F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2023-01-16 10:29:16,410 INFO Deleting snapshot F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_7.
+
+2023-01-16 10:29:16,410 INFO Renaming F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_7.
+
+2023-01-16 10:29:16,411 INFO Deleting snapshot F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_6.
+
+2023-01-16 10:33:13,810 WARN Unable to fsync directory F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2023-01-16 10:33:13,810 INFO Deleting snapshot F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_7.
+
+2023-01-16 10:33:13,810 INFO Renaming F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_7.
+
+2023-01-16 10:33:13,810 INFO Deleting snapshot F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_6.
+
+2023-01-16 10:33:58,411 WARN Unable to fsync directory F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2023-01-16 10:33:58,411 INFO Deleting snapshot F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_7.
+
+2023-01-16 10:33:58,411 INFO Renaming F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_7.
+
+2023-01-16 10:33:58,412 INFO Deleting snapshot F:\7-1\nacos-server-2.1.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_6.
+

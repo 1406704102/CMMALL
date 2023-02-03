@@ -1,0 +1,8 @@
+2023-01-28 08:57:13,395 WARN task com.alibaba.nacos.naming.push.v2.task.PushExecuteTask@36809f8a takes 3566ms
+
+2023-01-28 08:57:18,324 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='cmmall-third-party', ephemeral=true, revision=1}, ip: {"ip":"192.168.123.187","port":30000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.123.187#30000#DEFAULT#DEFAULT_GROUP@@cmmall-third-party"},"lastHeartBeatTime":1674867407920,"metadataId":"192.168.123.187:30000:DEFAULT"}
+
+2023-01-28 08:57:18,324 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='cmmall-third-party', ephemeral=true, revision=1}, 192.168.123.187:30000#true
+
+2023-01-28 08:57:18,928 INFO Client connection 192.168.123.187:30000#true disconnect, remove instances and subscribers
+

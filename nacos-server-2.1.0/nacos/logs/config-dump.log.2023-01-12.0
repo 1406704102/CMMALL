@@ -1,0 +1,22 @@
+2023-01-12 10:32:12,965 INFO [dump-task] add task. groupKey=port.yaml+dev, taskKey=port.yaml+dev++false+null
+
+2023-01-12 10:32:12,980 INFO [dump-task] add task. groupKey=nacos.yaml+dev, taskKey=nacos.yaml+dev++false+null
+
+2023-01-12 10:32:12,998 INFO [dump-task] add task. groupKey=db.yaml+dev, taskKey=db.yaml+dev++false+null
+
+2023-01-12 10:32:53,136 INFO [dump-task] add task. groupKey=db.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29, taskKey=db.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29+false+null
+
+2023-01-12 10:32:53,137 INFO [dump-task] add task. groupKey=port.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29, taskKey=port.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29+false+null
+
+2023-01-12 10:32:53,137 INFO [dump-task] add task. groupKey=nacos.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29, taskKey=nacos.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29+false+null
+
+2023-01-12 10:33:08,367 INFO [dump-task] add task. groupKey=port.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29, taskKey=port.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29+false+null
+
+2023-01-12 10:36:50,521 INFO [dump-task] add task. groupKey=oss.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29, taskKey=oss.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29+false+null
+
+2023-01-12 11:54:06,573 INFO [dump-task] add task. groupKey=oss.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29, taskKey=oss.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29+false+null
+
+2023-01-12 11:59:52,847 INFO [dump-task] add task. groupKey=oss.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29, taskKey=oss.yaml+dev+16e70131-3daf-4253-b191-a390a28bcd29+false+null
+
+2023-01-12 14:33:57,048 INFO [dump-task] add task. groupKey=routes.yaml+dev+c9fbede5-1eae-4956-af3f-e9b4b6f375bc, taskKey=routes.yaml+dev+c9fbede5-1eae-4956-af3f-e9b4b6f375bc+false+null
+

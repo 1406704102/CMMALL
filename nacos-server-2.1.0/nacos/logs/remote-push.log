@@ -1,0 +1,6 @@
+2022-12-09 15:37:45,313 INFO push [1] clients ,groupKey=[api-gateway+DEFAULT_GROUP+8a50d31c-8d47-415b-b104-49b5ace75f35]
+
+2022-12-09 16:08:12,311 INFO push [1] clients ,groupKey=[service-auth+DEFAULT_GROUP+8a50d31c-8d47-415b-b104-49b5ace75f35]
+
+2022-12-09 16:12:46,341 INFO push [1] clients ,groupKey=[REDIS.yaml+DEFAULT_GROUP+8a50d31c-8d47-415b-b104-49b5ace75f35]
+
