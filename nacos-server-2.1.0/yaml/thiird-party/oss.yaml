@@ -1,0 +1,8 @@
+alibaba:
+  cloud:
+    access-key: LTAI5tJGTakreKzv3eJFf3x6
+    secret-key: mQieY8muDM8AdDrMYiIYLmncaLfomT
+    oss:
+      endpoint: oss-cn-chengdu.aliyuncs.com
+      bucket: cmmall
+      callback-url: https://192.168.123.187:8888

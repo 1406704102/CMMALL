@@ -1,4 +1,0 @@
-2023-01-28 08:57:07,222 INFO {POS} {IP-DISABLED} valid: 192.168.123.187:30000@DEFAULT@cmmall-third-party, region: unknown, msg: client last beat: 1674867407920
-
-2023-01-28 08:57:12,141 INFO {POS} {IP-DISABLED} valid: 192.168.123.187:8100@DEFAULT@cmmall-product, region: unknown, msg: client last beat: 1674867412137
-
